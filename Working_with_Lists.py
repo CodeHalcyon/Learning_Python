@@ -7,7 +7,7 @@ friends = ["chetan", "jasleen", "madhav","madhav","madhav","madhav","sudhamshu",
 # print(friends[2:])
 # print(friends[2:6])
 # friends[0] = "Anoushka"
-print(friends)
+print(*friends) #printing a list
 
 friends.append("Bhavya")
 print(friends)
